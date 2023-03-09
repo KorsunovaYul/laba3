@@ -17,7 +17,7 @@ def z3_2():
 def z3_3():
     a = input()
     while a != 'stop':
-        if 'ф' in a:
+        if 'ф' in a or 'Ф' in a:
             print('Ого! Это редкое слово!')
         else:
             print('Эх, это не очень редкое слово...')
@@ -40,4 +40,4 @@ def z3_4():
             n += 1
     print('Правильных ответов: ', x)
 
-print(z3_1(), print(z3_2(), z3_3()), z3_4())
+print( z3_3())
